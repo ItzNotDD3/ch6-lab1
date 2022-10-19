@@ -147,7 +147,6 @@ footer a{
 /* Media Query for tablet viewport */
 @media screen and (min-width: 550px) , print {
 
-}
 /* Tablet Viewport: Show tab-desk class, hide mobile class */
 .tab-desk {
   display: block;
@@ -181,10 +180,11 @@ nav li {
   width: 500px;
   height: 450px;
 }
+}
 /* media query for Desktop Viewport */
 @media screen and (min-width: 769px) , print {
 
-}
+
 /* Desktop Viewport: Style rule for header */
 header {
   padding: 2%;
@@ -215,6 +215,7 @@ nav li a:hover {
     margin-left: 2%;
     margin-right: 2%;
   }
+}
   /* Media Query for print */
   @media print {
     body {
